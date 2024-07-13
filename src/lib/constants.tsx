@@ -13,57 +13,57 @@ import {
 
 export const LINKS: Link[] = [
   {
-    title: "X: Sujeet_Gund",
-    href: "https://x.com/Sujeet_Gund",
+    title: "X: alvaro_Aryan",
+    href: "https://x.com/alvaro_Aryan",
     icon: <XSVG />,
-    text: "Sujeet_Gund",
+    text: "alvaro_Aryan",
     rel: "noopener noreferrer external",
   },
   {
-    title: "Threads: sujeet.gund",
-    href: "https://www.threads.net/@sujeet.gund",
+    title: "Threads: bettercall_alvaro",
+    href: "https://www.threads.net/@bettercall_alvaro",
     icon: <ThreadsSVG />,
-    text: "sujeet.gund",
+    text: "bettercall_alvaro",
     rel: "me",
   },
   {
-    title: "Instagram: sujeet.gund",
-    href: "https://instagram.com/sujeet.gund",
+    title: "Instagram: bettercall_alvaro",
+    href: "https://www.instagram.com/bettercall_alvaro",
     icon: <InstagramSVG />,
-    text: "sujeet.gund",
+    text: "bettercall_alvaro",
     rel: "noopener noreferrer external",
   },
   {
-    title: "LinkedIn: sujeetgund",
-    href: "https://linkedin.com/in/sujeetgund",
+    title: "LinkedIn: Aryan Sen",
+    href: "www.linkedin.com/in/alvaro2003",
     icon: <LinkedinSVG />,
-    text: "sujeetgund",
+    text: "Aryan Sen",
     rel: "noopener noreferrer external",
   },
   {
-    title: "GitHub: sujeetgund",
-    href: "https://github.com/sujeetgund",
+    title: "GitHub: bettercallaryan",
+    href: "https://github.com/bettercallaryan",
     icon: <GithubSVG />,
-    text: "sujeetgund",
+    text: "bettercallaryan",
     rel: "noopener noreferrer external",
   },
   {
     title: "Google",
-    href: "https://www.google.com/search?q=Sujeet+Gund",
+    href: "https://www.google.com/search?q=Aryan+Sen",
     icon: <GoogleSVG />,
     text: "Google Search",
     rel: "noopener noreferrer external",
   },
   {
     title: "ChatGPT",
-    href: "https://chatgpt.com/?q=Sujeet%20Gund",
+    href: "https://chatgpt.com/?q=Aryan%20Sen",
     icon: <ChatgptSVG />,
     text: "ChatGPT",
     rel: "noopener noreferrer external",
   },
   {
     title: "Email",
-    href: "mailto:sujeetgund@gmail.com",
+    href: "mailto:itsaryanofficial2003@gmail.com",
     icon: <EmailSVG />,
     text: "Email",
     rel: "noopener noreferrer external",
@@ -71,7 +71,7 @@ export const LINKS: Link[] = [
 ];
 
 export const KEYWORDS = [
-  "Sujeet Gund",
+  "Aryan Sen",
   "Student",
   "Data Science Student",
   "AI Enthusiast",
@@ -126,8 +126,8 @@ export const KEYWORDS = [
 export const DESCRIPTION =
   "I am a dedicated Data Science student pursuing an Integrated MTech in AI at VIT Bhopal with 3+ years of coding experience. Skilled in Python, JavaScript, and C++, and proficient in Git, Docker, AWS, and MongoDB. Passionate about leveraging data for insights and innovation.";
 
-export const TITLE = "Sujeet Gund’s personal website";
-export const BLOG_PAGE_TITLE = "Sujeet Gund’s personal blog";
+export const TITLE = "Aryan Sen’s personal website";
+export const BLOG_PAGE_TITLE = "Aryan Sen’s personal blog";
 
 
 export const GET_ALL_BLOGS_QUERY = `query Publication {

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import profilepic from "../../public/sujeet.png";
+import profilepic from "../../public/aryansen.jpg";
 import { LINKS } from "@/lib/constants";
 import { BagSVG, LocationSVG } from "@/components/icons";
 
@@ -13,10 +13,10 @@ export default function Home() {
           <figure className="flex flex-col-reverse justify-between gap-3 sm:flex-row group">
             <figcaption className="font-medium">
               <p className="text-lg" lang="en">
-                Sujeet Gund
+                Aryan Sen
               </p>
               <p className="text-lg" lang="hi">
-                सुजीत गुंड
+              आर्यन सेन
               </p>
             </figcaption>
             <Image
@@ -24,7 +24,7 @@ export default function Home() {
               fetchPriority="high"
               width="200"
               height="200"
-              className="size-[75px] flex-shrink-0 select-none rounded-[2em] text-transparent bg-contain mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-300 ease-in-out"
+              className="size-[75px] flex-shrink-0 select-none rounded-[2em] text-transparent bg-contain  group-hover:mix-blend-normal transition-all duration-300 ease-in-out"
               draggable="false"
               src={profilepic}
               placeholder="blur"
