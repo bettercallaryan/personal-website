@@ -7,8 +7,7 @@ import { BagSVG, LocationSVG } from "@/components/icons";
 
 export default function OldHeroSection() {
   return (
-      <div className="flex grow flex-col items-center justify-center text-white">
-        <section className="rounded-2xl p-4 backdrop-blur-lg bg-white/10">
+        <section className="rounded-2xl p-4 backdrop-blur-lg bg-white/10 text-white">
           <figure className="flex flex-col-reverse justify-between gap-3 sm:flex-row group">
             <figcaption className="font-medium">
               <p className="text-lg" lang="en">
@@ -73,6 +72,5 @@ export default function OldHeroSection() {
             {""} here
           </p>
         </section>
-      </div>
   );
 }
