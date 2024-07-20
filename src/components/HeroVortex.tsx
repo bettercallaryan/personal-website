@@ -4,16 +4,14 @@ import OldHeroSection from "./OldHeroSection";
 
 export default function HeroVortex() {
   return (
-    <div className="mx-auto rounded-md  h-screen overflow-hidden">
       <Vortex
         backgroundColor="black"
         rangeY={800}
         particleCount={500}
         baseHue={120}
-        className="flex items-center flex-col justify-center w-full h-full"
+        className="min-h-screen flex items-center justify-center"
       >
         <OldHeroSection />
       </Vortex>
-    </div>
   );
 }
