@@ -9,6 +9,7 @@ import {
   GithubSVG,
   GoogleSVG,
   LinkedinSVG,
+  KaggleSVG,
 } from "@/components/icons";
 
 export const LINKS: Link[] = [
@@ -45,6 +46,13 @@ export const LINKS: Link[] = [
     href: "https://github.com/bettercallaryan",
     icon: <GithubSVG />,
     text: "bettercallaryan",
+    rel: "noopener noreferrer external",
+  },
+  {
+    title: "Kaggle: alvar10",
+    href: "https://www.kaggle.com/alvar10",
+    icon: <KaggleSVG />,
+    text: "alvar10",
     rel: "noopener noreferrer external",
   },
   {
