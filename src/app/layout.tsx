@@ -10,7 +10,7 @@ const schibstedGrotesk = Schibsted_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_BASEURL || "https://sujeetgund.vercel.app"
+    process.env.NEXT_PUBLIC_BASEURL || "https://alvaro10.vercel.app"
   ),
   keywords: KEYWORDS,
   title: TITLE,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: TITLE,
     description: DESCRIPTION,
-    url: process.env.NEXT_PUBLIC_BASEURL || "https://sujeetgund.vercel.app",
+    url: process.env.NEXT_PUBLIC_BASEURL || "https://alvaro10.vercel.app",
     siteName: TITLE,
     locale: "en_US",
     type: "website",
