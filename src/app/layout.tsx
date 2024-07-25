@@ -3,6 +3,8 @@ import { Schibsted_Grotesk } from "next/font/google";
 import "./globals.css";
 import { DESCRIPTION, KEYWORDS, TITLE } from "@/lib/constants";
 
+import { ThemeProvider } from "@/components/theme-provider"
+
 const schibstedGrotesk = Schibsted_Grotesk({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
@@ -45,7 +47,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={schibstedGrotesk.className}>{children}</body>
+      <body className={schibstedGrotesk.className}>
+        <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
+          </body>
     </html>
   );
 }

@@ -7,7 +7,7 @@ import request, { gql } from "graphql-request";
 import Link from "next/link";
 import React from "react";
 
-export const revalidate = 300; // revalidate at most every five minutes
+export const revalidate = 60; // revalidate at most every five minutes
 
 async function getBlogs(query: string, variables = {}) {
   const res = await request<ApiResponse>(
@@ -45,13 +45,13 @@ const page = async () => {
                     key={blog.url}
                     target="_blank"
                     rel="noopener noreferrer external"
-                    className="plb-2.5 pli-4 flex gap-2.5 rounded-md active:bg-gray-200"
+                    className="plb-2.5 pli-4 flex gap-2.5 rounded-md active:bg-gray-600/45"
                     href={blog.url}
                     title={blog.title}
                   >
                     <div className="flex flex-col gap-1">
                       <time
-                        className="text-sm font-medium tabular-nums leading-none text-gray-700"
+                        className="text-sm font-medium tabular-nums leading-none text-gray-300"
                         dateTime={blog.publishedAt}
                       >
                         {formatDate(blog.publishedAt)}

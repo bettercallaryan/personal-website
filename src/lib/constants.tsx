@@ -139,18 +139,19 @@ export const BLOG_PAGE_TITLE = "Aryan Sen’s personal blog";
 
 
 export const GET_ALL_BLOGS_QUERY = `query Publication {
-      publication(host: "alvaro10.hashnode.dev") {
-        isTeam
-        title
-        posts(first: 10) {
-          edges {
-            node {
-              title
-              publishedAt
-              brief
-              url
-            }
-          }
+  publication(host: "alvaro10.hashnode.dev") {
+    isTeam
+    title
+    posts(first: 10) {
+      edges {
+        node {
+          title
+          publishedAt
+          brief
+          id
+          url
         }
       }
-    }`;
+    }
+  }
+}`;
